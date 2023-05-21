@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title> les mois </title>
+  </head>
+  <body>
+    <script>
+      let mois = Number(
+        prompt("Entrez le numéro d'un mois (entre 1 et 12) : ")
+      );
+      let daysNumber;
+      if (month === 2) {
+        daysNumber = 28;
+      } else if ([4, 6, 9, 11].includes(mois)) {
+        daysNumber = 30;
+      } else {
+        daysNumber = 31;
+      }
+      alert(`Le mois numero ${mos} a ${daysNumber} jours.`);
+    </script>
+  </body>
+</html>

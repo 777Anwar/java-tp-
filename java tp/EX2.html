@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>la date</title>
+  </head>
+  <body>
+    <script>
+      const today = new Date();
+      const day = today.getDate();
+      const month = today.getMonth() + 1; // les mois commencant par 1  mais en javai debute par 0 donc il faut ajoute 1
+      const year = today.getFullYear();
+      const date = document.write(
+        `la date d aujourd'hui: ${day.toString()}/${month.toString()}/${year}`
+      );
+    </script>
+  </body>
+</html>
